@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import './App.css';
-// import CustomModal from "./components/Modal";
 import Modal from "./components/Modal";
 import axios from 'axios';
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -156,5 +155,3 @@ class App extends Component {
   }
 
 }
-
-export default App;
